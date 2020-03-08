@@ -54,7 +54,9 @@ class TablePage extends Component {
           onClick={() => {
             this.props.changeName({ id: 'junno', nextId: 'juno' });
           }}
-        ></button>
+        >
+          Change Name as juno
+        </button>
       </div>
     );
   }
